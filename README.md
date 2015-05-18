@@ -1,5 +1,7 @@
 # 5374について
+
 For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
+
 ##「いつ、どのゴミが収集されているのか？」
 
 ゴミの問題はどの地域でも深刻になりつつあります。
@@ -21,10 +23,8 @@ For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
 
 各地域へのローカライズについては[LOCALIZE.md](LOCALIZE.md)を参照するようにしてください。
 
-
-
-
 ## 開発チームとライセンスについて
+
 - 小野 祐貴(Yuki ONO)　Developer
 - 五十川 員申(Kazunobu IKAGAWA)　Developer
 - 高木 志宗(Yukimune TAKAGI)　Developer
@@ -32,3 +32,7 @@ For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
 
 本アプリ及びソースコードの著作権はCode for Kanazawaに帰属します。
 但し、このソースコードは[MPL](http://www.mozilla.org/MPL/2.0/)のもと配布されています。MPLに従えば、どなたでも利用、改変、及び再配布が可能です。
+
+## マルチドメイン対応版について
+
+CODE for 大江戸は、地域対応（ローカライズ）されたデータセット(CSVファイル一式)をドメイン名から取得できるように拡張しました。
