@@ -8,7 +8,7 @@ echo デプロイ開始
 
 echo
 echo [1] Program Store...
-rsync -av --delete ./ ${APP_PATH} --rsync-path="sudo -u s2admin rsync" --exclude=.env* --exclude=deploy --exclude=README.md --exclude=.git* --exclude=.DS_Store
+rsync -av --delete ./ ${DEPLOY_APP_PATH} --rsync-path="${DEPLOY_RSYNC_PATH:-rsync}" --exclude=.env* --exclude=deploy --exclude=README.md --exclude=.git* --exclude=.DS_Store
 
 echo
 echo デプロイ完了
