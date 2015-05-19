@@ -653,7 +653,7 @@ var App = function() {
 
 
 $.get(FileListUrl, function (data) {
-  Files = data.urls;
+  Files = data.files;
 
   App();
 });
