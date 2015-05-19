@@ -404,6 +404,7 @@ var App = function() {
         }
         //HTMLへの適応
         area_select_form.html(select_html);
+        area_select_form.removeAttr('disabled');
         area_select_form.change();
       });
     });
@@ -655,5 +656,9 @@ var App = function() {
 $.get(FileListUrl, function (data) {
   Files = data.files;
 
+  // ページタイトルを設定する
+  document.title = data.settings.title || '5374.jp';
+
+  // アプリケーションを実行する
   App();
 });
