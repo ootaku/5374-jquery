@@ -3,11 +3,18 @@
  */
 body {
 	font-family: ".HiraKakuInterface-W1",'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	font-size: 16px;
+	line-height: 1.75em;
 }
 a,
 a:hover {
-	color: white;
+	color: #000;
 	text-decoration: none;
+}
+ul,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 .accordion-inner {
 	padding: 9px 15px;
@@ -78,12 +85,10 @@ a:hover {
  */
 #accordion3 a.accordion-toggle-top {
 	color: #000000;
-	height: 22px;
 	display: block;
 	margin: 0;
 	text-align: left;
 	font-size: 25px;
-	margin: 15px 0 15px 15px;
 }
 #accordion3 a.accordion-toggle-top:hover {
 	color: #000000;
@@ -133,3 +138,96 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
+
+/*shinagawa 5374*/
+.grad {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #f2f5f6), color-stop(0.00, #c8d7dc));
+background: -webkit-linear-gradient(top, #c8d7dc 0%, #f2f5f6 100%);
+background: -moz-linear-gradient(top, #c8d7dc 0%, #f2f5f6 100%);
+background: -o-linear-gradient(top, #c8d7dc 0%, #f2f5f6 100%);
+background: -ms-linear-gradient(top, #c8d7dc 0%, #f2f5f6 100%);
+background: linear-gradient(top, #c8d7dc 0%, #f2f5f6 100%);
+}
+.icn {
+	position: relative;
+}
+.icn:after {
+	position: absolute;
+	top: 0;right: 10px;
+	content: "";
+	display: block;
+	width: 15px;
+	height: 100%;
+	background-image: url(../img/icn.png);
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+.box {
+	margin: 0 10px 20px;
+}
+#headline-news {
+	line-height: 1.75em;
+	background-color: #FF6600;
+	color: #ffffff;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+#headline-news p {
+}
+.form-control {
+	font-size: 18px;
+	line-height: 2em;
+	display: block;
+}
+
+.accordion-toggle-top {
+	position: relative;
+	height: 2em;
+	line-height: 2em;
+	padding: 0 10px;
+}
+.sec-title a {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	font-size: 21px;
+	color: #666;
+	font-weight: bold;
+	padding: 10px;
+	display: block;
+	border-bottom: 1px dotted #ccc;
+}
+.sec {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	padding: 0 10px 20px;
+	display: none;
+	font-size: 18px;
+	line-height: 1.75;
+	overflow: hidden;
+}
+.sec dl dt {
+	display: block;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.sec dl dd dl dt {
+	border-bottom: none;
+}
+.sec dl dd {
+	margin-bottom: 10px;
+} 
+.sec a {
+	color: #9400D3;
+}
+
+#hinmoku {max-width: 100%}
+#hinmoku2 {
+color: red; 
+font-size: x-large;
+}
+

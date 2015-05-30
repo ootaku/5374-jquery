@@ -441,6 +441,15 @@ var App = function() {
         after_action();
         $("#accordion2").show();
 
+        // ごみの分類を調べるの選択ボックスに追加
+        var select_html = "";
+        for (var i in data) {
+          var row = new TargetRowModel(data[i]);
+          select_html += '<option value="' + row.label + '">' + row.name + '</option>';
+        }
+
+        var hinmoku = $('#hinmoku');
+        hinmoku.html(select_html);
       });
 
     });
@@ -648,6 +657,7 @@ var App = function() {
         return "An unknown error occurred."
     }
   }
+
   updateAreaList();
 };
 
