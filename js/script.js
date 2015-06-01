@@ -442,13 +442,17 @@ var App = function() {
         $("#accordion2").show();
 
         // ごみの分類を調べるの選択ボックスに追加
+        var hinmoku = $('#hinmoku');
         var select_html = "";
+
+        hinmoku.html(select_html);
+
+        select_html += '<option value=" " selected>ごみを選択してください（あいうえお順）</option>';
         for (var i in data) {
           var row = new TargetRowModel(data[i]);
           select_html += '<option value="' + row.label + '">' + row.name + '</option>';
         }
 
-        var hinmoku = $('#hinmoku');
         hinmoku.html(select_html);
       });
 
