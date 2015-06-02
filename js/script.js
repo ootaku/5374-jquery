@@ -667,6 +667,7 @@ var App = function() {
 
 
 
+// ファイルリストの読み込み
 $.get(FileListUrl, function (data) {
   Files = data.files;
 
@@ -675,4 +676,20 @@ $.get(FileListUrl, function (data) {
 
   // アプリケーションを実行する
   App();
+});
+
+// コンテンツセクションのハンドラ
+$(function(){
+  $('.sec-title').on('click', 'a', function(e){
+    e.preventDefault();
+    $(this).parent().next('div').slideToggle();
+  });
+});
+
+// ごみ種別検索のハンドラ
+$(function() {
+    $("#hinmoku").change(function() {
+       var myValue = $('#hinmoku option:selected').val();
+           $("#hinmoku2").text(myValue);
+     });
 });
