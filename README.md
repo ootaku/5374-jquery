@@ -1,38 +1,25 @@
-# 5374について
+# 5374.jp
 
-For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
+For English please see [LOCALIZE_en.md](docs/LOCALIZE_en.md).
 
-##「いつ、どのゴミが収集されているのか？」
+[公式サイト](http://5374.jp)
 
-ゴミの問題はどの地域でも深刻になりつつあります。
- [Code for Kanazawa](http://codeforkanazawa.org/)
-では、先ずは正しいゴミの捨て方に注目しました。例えばお引っ越しをされた場合、このアプリを使えばすぐに分かるように、目的と使い方をとてもシンプルにデザインしました。
+## CODE for 金沢版（オリジナル）
 
-## ブランチの運用について
-
-* **master**: ローカライズをする場合にはこのブランチをforkしてください (2014/5/7 updated v1.1)
-* **kanazawa**: 5374の金沢バージョン
-* **gh-pages**: 5374の金沢バージョンリリースブランチ
-* **dev**: 今後kanazawaへ適用予定の開発ブランチ
-
-## 使い方について
-
-[HOWTOUSE.md](HOWTOUSE.md)に5374標準の文章を用意してあるので、書き換えて使ってください。
-
-## ローカライズについて
-
-各地域へのローカライズについては[LOCALIZE.md](LOCALIZE.md)を参照するようにしてください。
-
-## 開発チームとライセンスについて
-
-- 小野 祐貴(Yuki ONO)　Developer
-- 五十川 員申(Kazunobu IKAGAWA)　Developer
-- 高木 志宗(Yukimune TAKAGI)　Developer
-- 宮田 人司(Hotoshi MIYATA)　Designer
-
-本アプリ及びソースコードの著作権はCode for Kanazawaに帰属します。
+[本アプリ及びソースコード](http://github.com/codeforkanazawa-org/5374)の著作権は[Code for Kanazawa](http://codeforkanazawa.org/)に帰属します。
 但し、このソースコードは[MPL](http://www.mozilla.org/MPL/2.0/)のもと配布されています。MPLに従えば、どなたでも利用、改変、及び再配布が可能です。
 
-## マルチドメイン対応版について
+## マルチドメイン対応版
 
-CODE for 大江戸は、地域対応（ローカライズ）されたデータセット(CSVファイル一式)をドメイン名から取得できるように拡張しました。
+[CODE for 大江戸](http://coeforoedo.org)は、地域対応（ローカライズ）されたデータセット(CSVファイル一式)をドメイン名から取得できるように拡張しました。
+
+## 品川区版開発メンバー
+
+2015年5月30日に次のメンバーで開発を行いました。
+
+- [古川 文生 (@jumilla)](http://github.com/jumilla) ディレクション/プログラム開発
+- 大川 聡 - データ品質管理
+- 飯沢 邦之 - デザイン開発
+- [小山 拓](http://vacancy.jp) - デザイン開発
+- 真田 知紀 - コンテンツ開発
+- 夏原 馨 - コンテンツ開発
