@@ -1,6 +1,8 @@
 # 5374.jp
 
-For English please see [LOCALIZE_en.md](docs/LOCALIZE_en.md).
+5374.jpは、地域のごみ収集日やごみ種別をスマートフォン上に表示するアプリケーションです。iPhone, AndroidのWebブラウザ上で動作します。
+
+ホーム画面に登録して、ごみを捨てたくなったときにすぐ確認できるようにしましょう！
 
 [公式サイト](http://5374.jp)
 
@@ -13,9 +15,16 @@ For English please see [LOCALIZE_en.md](docs/LOCALIZE_en.md).
 
 [CODE for 大江戸](http://coeforoedo.org)は、地域対応（ローカライズ）されたデータセット(CSVファイル一式)をドメイン名から取得できるように拡張しました。
 
-## 品川区版開発メンバー
+## 品川区版
 
-2015年5月30日に次のメンバーで開発を行いました。
+2015年5月30日に次のメンバーで5374品川区版の開発を行いました。
+
+[アプリ](http://shinagawa.tokyo.5374.jp)
+[データ](https://docs.google.com/spreadsheets/d/1hQHEvFhilAw2MH2kQCzKzYKck-gLbhJlDH1BNkl2vbc/pubhtml)
+
+![品川区版アプリアイコン](img/apple-touch-icon-precomposed.png)
+
+### 開発メンバー
 
 - [古川 文生 (@jumilla)](http://github.com/jumilla) ディレクション/プログラム開発
 - 大川 聡 - データ品質管理
