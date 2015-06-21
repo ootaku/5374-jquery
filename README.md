@@ -4,7 +4,7 @@
 
 ホーム画面に登録して、ごみを捨てたくなったときにすぐ確認できるようにしましょう！
 
-[公式サイト](http://5374.jp)
+[5374.jp公式サイト](http://5374.jp)
 
 ## CODE for 金沢版（オリジナル）
 
@@ -17,10 +17,10 @@
 
 ## 品川区版
 
-2015年5月30日に次のメンバーで5374品川区版の開発を行いました。
+2015年5月30日に5374品川区版の開発を行いました。
 
-[アプリ](http://shinagawa.tokyo.5374.jp)
-[データ](https://docs.google.com/spreadsheets/d/1hQHEvFhilAw2MH2kQCzKzYKck-gLbhJlDH1BNkl2vbc/pubhtml)
+- [アプリ](http://shinagawa.tokyo.5374.jp)
+- [データ](https://docs.google.com/spreadsheets/d/1hQHEvFhilAw2MH2kQCzKzYKck-gLbhJlDH1BNkl2vbc/pubhtml)
 
 ![品川区版アプリアイコン](img/apple-touch-icon-precomposed.png)
 
@@ -30,5 +30,5 @@
 - 大川 聡 - データ品質管理
 - 飯沢 邦之 - デザイン開発
 - [小山 拓](http://vacancy.jp) - デザイン開発
-- 真田 知紀 - コンテンツ開発
 - 夏原 馨 - コンテンツ開発
+- 真田 知紀 - コンテンツ開発
