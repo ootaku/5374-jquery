@@ -11,7 +11,7 @@ var MaxMonth = 3;
 
 var WeekShift = false; // 休止期間なら週をずらすときは、true。金沢の仕様は、true。
 
-var FileListUrl = 'http://5374.codeforoedo.org/data/';
+var FileListUrl = 'http://data.5374.codeforoedo.org/data.json';
 
 var Files = {
 	'area.csv': 'data/area.csv',

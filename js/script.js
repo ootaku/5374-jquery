@@ -669,18 +669,35 @@ var App = function() {
 
 // ファイルリストの読み込み
 $.get(FileListUrl, function (data) {
-  Files = data.files;
+  data = JSON.parse(data);
+
+  var entryKey = (function (data) {
+    var host = window.location.host;
+    for (var domain in data.domains) {
+      if (domain == host) {
+        return data.domains[domain];
+      }
+    }
+    return data.domains['*'];
+  })(data);
+
+  var entry = data.data[entryKey];
+
+  // ファイルURLリストを設定する
+  Files = entry.files;
 
   // ページタイトルを設定する
-  document.title = data.settings.title || '5374.jp';
+  document.title = entry.settings.title || '5374.jp';
 
   // アプリケーションを実行する
   App();
 });
 
+
+
 // コンテンツセクションのハンドラ
-$(function(){
-  $('.sec-title').on('click', 'a', function(e){
+$(function() {
+  $('.sec-title').on('click', 'a', function(e) {
     e.preventDefault();
     $(this).parent().next('div').slideToggle();
   });
